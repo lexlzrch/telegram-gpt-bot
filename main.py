@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 import os
 
-TELEGRAM_TOKEN = os.getenv("8712510143:AAFYpWcZReFqyuoE7IkOr39zyR5UCbj8Shg")
+TELEGRAM_TOKEN = "8712510143:AAFYpWcZReFqyuoE7IkOr39zyR5UCbj8Shg"
 OPENAI_API_KEY = os.getenv("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")
 
 client = OpenAI(api_key="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")
